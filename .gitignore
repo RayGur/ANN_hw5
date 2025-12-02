@@ -41,15 +41,13 @@ venv.bak/
 *.ipynb
 
 # Results and outputs
-results/*.log
-results/*.txt
-results/*.csv
-results/*.json
-results/*.png
+outputs/*.log
+outputs/*.txt
+outputs/*.csv
+outputs/*.json
+outputs/*.png
 *.png
 
-# Keep directory structure
-!results/.gitkeep
 
 # Temporary files
 *.tmp
