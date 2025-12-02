@@ -141,7 +141,7 @@ def run_experiment1(output_dir="output"):
     summary = create_summary_table(train_acc, test_pred, len(history), history[-1])
 
     summary_path = output_path / "experiment1_summary.txt"
-    with open(summary_path, "w") as f:
+    with open(summary_path, "w", encoding="utf-8") as f:
         f.write(summary)
     print(f"Saved summary to: {summary_path}")
 

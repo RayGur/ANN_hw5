@@ -111,7 +111,7 @@ def run_experiment2(
 
     table_path = output_path / "lr_comparison_table.txt"
 
-    with open(table_path, "w") as f:
+    with open(table_path, "w", encoding="utf-8") as f:
         f.write("=" * 80 + "\n")
         f.write("Learning Rate Comparison Results\n")
         f.write("=" * 80 + "\n\n")
