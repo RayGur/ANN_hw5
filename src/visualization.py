@@ -285,7 +285,7 @@ def save_prediction_results(test_predictions, output_path):
     """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    with open(output_path, "w") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write("=" * 60 + "\n")
         f.write("LVQ-1 Test Set Predictions\n")
         f.write("=" * 60 + "\n\n")
